@@ -1,0 +1,43 @@
+.container {
+}
+
+.imgContainer {
+  width: 1000px;
+  height: 300px;
+  position: relative;
+}
+.img {
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.imgText {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgb(176, 209, 144);
+  padding: 5px;
+}
+
+.imgText:hover {
+  background-color: rgb(139, 184, 94);
+}
+
+.textContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.item {
+  flex: 1;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+}
